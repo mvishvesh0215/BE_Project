@@ -1,0 +1,31 @@
+/* Practice.css */
+
+.practice-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.practice-item {
+  margin: 20px;
+  text-align: center;
+}
+
+.practice-item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 50px;
+}
+
+.practice-item h2 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px;
+  color: white;
+}

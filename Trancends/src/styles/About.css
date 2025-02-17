@@ -1,0 +1,60 @@
+/* AboutUs.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* About Us container */
+  .about-us-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Heading */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  /* Image row */
+  .image-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  /* Image container */
+  .image-container {
+    flex: 1;
+    text-align: center;
+    width: 200px; /* Set a fixed width for the image containers */
+    height: 200px; /* Set a fixed height for the image containers */
+    margin-right: 10px; /* Add margin to the right of each image container */
+  }
+  
+  /* Image */
+  .image-container img {
+    width: 100%;
+    height: 100%; /* Make the images fill the entire height of the container */
+    border-radius: 5px;
+    object-fit: cover; /* Ensure the image covers the entire container */
+  }
+  
+  /* Image content */
+  .image-content {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  /* Content */
+  .content p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }

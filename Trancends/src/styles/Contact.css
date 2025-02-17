@@ -1,0 +1,83 @@
+/* Contact.css */
+
+.contact-container {
+    text-align: center;
+    padding: 20px;
+    background-image: url('../assets/contact.jpg'); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .contact-title {
+    font-size: 36px;
+    color: #fff; /* Change text color to contrast with background */
+    margin-bottom: 30px;
+  }
+  
+  .contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .contact-info,
+  .contact-form {
+    flex: 1;
+    padding: 0px 20px;
+    background-color: rgba(18, 17, 17, 0.077); /* Add semi-transparent background to the form and contact info */
+    border-radius: 10px;
+  }
+  
+  .contact-info h3,
+  .contact-form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form form {
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .submit-button {
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  

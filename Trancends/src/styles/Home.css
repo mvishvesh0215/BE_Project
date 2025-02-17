@@ -1,0 +1,70 @@
+/* Home.css */
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; /* Center the content horizontally */
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.header h1 {
+  font-size: 2em;
+  color: #ffffff;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.feature-item {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.feature-item h3 {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  color: #666;
+}
+
+/* Styling for the "Register Now" button */
+.register-button {
+  display: inline-block;
+  padding: 8px 16px; /* Adjusted padding for smaller size */
+  font-size: 14px; /* Adjusted font size for smaller size */
+  background-color: #007bff; /* Change the background color as needed */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px; /* Add margin to separate the button from the features section */
+}
+
+.register-button:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+}

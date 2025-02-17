@@ -1,0 +1,59 @@
+/* Login.css */
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-image: url('../assets/login_background.jpg'); /* Add the background image URL */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /*Center the background image*/
+}
+
+h2{
+  text-align: center;
+  font-size: xx-large;
+}
+
+.login-container {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 80px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #4571eb4a;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #fff2f2;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
